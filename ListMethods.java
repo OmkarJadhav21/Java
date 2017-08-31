@@ -16,6 +16,7 @@ public class ListMethods {
 
         list.add(2,"Jadhav");       //here we added element at index 2
         System.out.println(list);
+        System.out.println(list.lastIndexOf("3omkar"));
 
         System.out.println("Elemnt at locaton 2 is "+list.get(2));  //returns elmnt at specifd index
         list.set(2,"first");        //assign element to the location specified by index within the invoking list.
@@ -23,8 +24,7 @@ public class ListMethods {
         System.out.println("Elemnt at locaton 2 is "+list.get(2));  //returns elmnt at specifd index
 
         List<String>list2=new ArrayList<>();
-        list2.addAll(list);
-        list2.addAll(list2);       //this will add elemtns from list and list2
+        list2.addAll(list);     //this will add elemtns from list and list2
         System.out.println(list2);
 
 //Method #1 : Iterate using for loop
